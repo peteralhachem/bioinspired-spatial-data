@@ -1,0 +1,8 @@
+{
+    "beta": 0.75,
+    "learning_rate": 0.0015,
+    "neurons_per_classes": 50,
+    "num_steps": 5,
+    "neuron_type": "lapicque",
+    "population_coding": true
+}

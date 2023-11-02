@@ -1,0 +1,8 @@
+{
+    "beta": 0.75,
+    "learning_rate": 0.001,
+    "neurons_per_classes": 75,
+    "num_steps": 5,
+    "neuron_type": "leaky",
+    "population_coding": true
+}

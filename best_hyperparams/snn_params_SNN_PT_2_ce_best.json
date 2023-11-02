@@ -1,0 +1,6 @@
+{
+    "beta": 0.95,
+    "learning_rate": 0.0025,
+    "num_steps": 75,
+    "neuron_type": "lapicque"
+}

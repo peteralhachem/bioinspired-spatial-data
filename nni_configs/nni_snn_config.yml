@@ -1,0 +1,12 @@
+searchSpaceFile: ../nni_search_spaces/search_space_snn.json
+trialCommand: python ../src/pytorch_snntorch/nni_snn_search.py --no-lightweight
+trialConcurrency: 1
+trialCodeDirectory: .           # The path of trial code. By default it's ".", which means the same directory of this config file.
+maxExperimentDuration: 16h       # Stop generating trials after 16 hour.
+tuner:
+  name: Anneal
+  classArgs:
+    optimize_mode: maximize
+trainingService:
+  platform: local
+  useActiveGpu: false

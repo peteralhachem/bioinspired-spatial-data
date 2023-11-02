@@ -1,0 +1,7 @@
+{
+    "w1":  {"_type": "randint", "_value": [2,256]},
+    "w2":  {"_type": "randint", "_value": [2,256]},
+    "w3":  {"_type": "randint", "_value": [2,256]},
+    "wd1":  {"_type": "randint", "_value": [4,64]},
+    "h1":  {"_type": "randint", "_value": [4,64]}
+}

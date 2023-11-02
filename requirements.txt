@@ -1,0 +1,10 @@
+torch
+numpy
+scipy
+scikit-learn
+snntorch
+tqdm
+nni
+hyperopt
+nengo
+nengo-dl
